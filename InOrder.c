@@ -34,3 +34,11 @@ void preOrder(Node *root){
       preOrder(root->kanan); 
       }
 }
+
+void inOrder(Node *root){
+      if(root != NULL){
+      inOrder(root->kiri);
+      printf("%d ", root->data);
+      inOrder(root->kanan);
+      }
+}

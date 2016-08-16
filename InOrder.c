@@ -14,7 +14,7 @@ void tambah(Node **root, int databaru){
             baru->data = databaru; 
             baru->kiri = NULL;
             baru->kanan = NULL;
-            (*root) = baru; 
+            (*root) = new; 
             (*root)->kiri = NULL;
             (*root)->kanan = NULL; 
             printf("Data bertambah!");

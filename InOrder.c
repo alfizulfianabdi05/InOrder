@@ -94,4 +94,10 @@ case 3 :
                 else
                      printf("Masih kosong!");
                 break;
-           }
+           
+    }
+           getch();
+           printf("\n");
+     }
+     while(pil != 5);
+}

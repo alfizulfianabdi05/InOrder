@@ -66,4 +66,10 @@ int data;
            printf("5. Exit\n");
            printf("Pilihan : "); scanf("%d", &pil);
            switch(pil){
-                	
+
+
+    case 1 :
+                printf("Data baru : ");
+                scanf("%d", &data);
+                tambah(&pohon, data);
+                break;     	

@@ -87,4 +87,11 @@ case 3 :
                 else
                       printf("Masih kosong!");
                 break;
-                
+
+ case 4 :
+                if(pohon != NULL)
+                     postOrder(pohon);
+                else
+                     printf("Masih kosong!");
+                break;
+           }

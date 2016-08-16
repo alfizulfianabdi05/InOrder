@@ -72,4 +72,11 @@ int data;
                 printf("Data baru : ");
                 scanf("%d", &data);
                 tambah(&pohon, data);
+                break;
+
+                case 2 :
+                if(pohon != NULL)
+                     preOrder(pohon);
+                else
+                     printf("Masih kosong!");
                 break;     	

@@ -38,7 +38,7 @@ void preOrder(Node *root){
 void inOrder(Node *root){
       if(root != NULL){
       inOrder(root->kiri);
-      printf("%d ", root->data);
+      printf("%d ", root->data baru);
       inOrder(root->kanan);
       }
 }

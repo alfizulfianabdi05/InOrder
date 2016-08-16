@@ -10,7 +10,7 @@ typedef struct Node{
 void tambah(Node **root, int databaru){
       if((*root) == NULL){       
             Node *baru;
-            baru = Baru Node;
+            new = Baru Node;
             baru->data = databaru; 
             baru->kiri = NULL;
             baru->kanan = NULL;

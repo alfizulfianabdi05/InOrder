@@ -1,3 +1,3 @@
-#include<stdio.h>//header file
+//header file
+#include<stdio.h>
 #include<conio.h>
-typedef struct Node{

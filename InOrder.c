@@ -26,3 +26,11 @@ void tambah(Node **root, int databaru){
       else if(databaru == (*root)->data)
             printf("Data sudah ada!");
 }
+
+void preOrder(Node *root){
+      if(root != NULL){
+            printf("%d ", root->data);
+      preOrder(root->kiri);
+      preOrder(root->kanan); 
+      }
+}

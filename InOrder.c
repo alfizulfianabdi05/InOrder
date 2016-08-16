@@ -24,7 +24,7 @@ void tambah(Node **root, int databaru){
       else if(databaru > (*root)->data)
             ubah(&(*root)->kanan, databaru); 
       else if(databaru == (*root)->data)
-            printf("Data sudah ada!");
+            printf("Data sudah tidak ada!");
 }
 
 void preOrder(Node *root){

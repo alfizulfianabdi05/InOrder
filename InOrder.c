@@ -56,4 +56,5 @@ main(){
      Node *pohon, *t;
      pohon = NULL;
      do{
+
      	

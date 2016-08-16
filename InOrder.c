@@ -80,3 +80,11 @@ int data;
                 else
                      printf("Masih kosong!");
                 break;     	
+
+case 3 :
+                if(pohon != NULL)
+                     inOrder(pohon);
+                else
+                      printf("Masih kosong!");
+                break;
+                

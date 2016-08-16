@@ -50,3 +50,10 @@ void postOrder(Node *root){
      printf("%d ", root->data); 
      }
 }
+
+main(){
+     int pil, c;
+     Node *pohon, *t;
+     pohon = NULL;
+     do{
+     	
